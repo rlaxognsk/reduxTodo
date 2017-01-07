@@ -1,0 +1,25 @@
+.todos {
+    list-style: none;
+}
+
+.todo {
+    position: relative;
+    box-sizing: border-box;
+    width: 450px;
+    height: 80px;
+    margin: 0 auto;
+    padding-left: 30px;
+    line-height: 80px;
+    border: 3px solid #555;
+
+    .todo-stiker {
+        position: absolute;
+        left: 0;
+        width: 6px;
+        height: 100%;
+    }
+    span {
+        font-size: 20px;
+        color: #555;
+    }
+}

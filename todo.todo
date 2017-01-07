@@ -1,0 +1,31 @@
+Project:
+    - Todo 만들기
+    - React-redux SPA
+    - redux-router로 라우팅
+    - redux-observable로 Async처리
+    - 백엔드단 php, mariaDB이용(Autoset 10.x)
+    - 프론트 코딩 -> 디자인 -> 백엔드 코딩
+    - 모든 데이터는 JSON으로 처리
+    - 모든 통신은 오직 ajax사용
+    - php는 오직 처리 로직만 존재.
+
+Blueprint:
+    Todo:
+        - 텍스트로 해야할일 입력
+        - 간단한 코멘트 입력 가능
+        - 완료 클릭시 flip 애니메이션과 함께 fade-out
+        - hover시 약간 아래로 기울어지는 애니메이션
+        - 왼쪽에 색깔라벨표시 -> Tag기능
+        - 약간의 그림자
+        - 무한스크롤 기능
+
+    Left Menu:
+        - 할일 목록
+        - 완료 목록
+        - 태그 목록
+    
+    Add Button:
+
+2017.01.07:
+    ☐ 최초 state blueprint
+    ☐ 

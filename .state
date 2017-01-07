@@ -1,0 +1,31 @@
+{
+    account: {
+        id: string
+    },
+    todos: {
+        lastID: number,
+        isFetching: bool,
+        filterType: FILTER_TYPE,
+        todoList: [
+            {
+                id: number,
+                text: string,
+                tag: [],
+                addDate: string,
+                completed: bool,
+                completedDate: string,
+                saved: bool,
+                color: string
+            }
+        ]
+    },
+    tags: {
+        isFold: bool,
+        tagList: [
+            {
+                id: number,
+                text: string
+            }
+        ]
+    },
+}
